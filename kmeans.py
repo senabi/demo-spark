@@ -64,7 +64,6 @@ class functor(object):
 def nearest(data):
     smallest = [10000000, None]
     for ix, c in enumerate(data[2]):
-        print("-8 -8 -8 -8 -8 -8 -8 8============D >:v =============")
         print(c)
         dist = np.linalg.norm(data[1] - c)
         if dist < smallest[0]:
