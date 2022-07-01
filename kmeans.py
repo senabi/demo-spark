@@ -1,4 +1,3 @@
-# from lib2to3.pgen2.literals import simple_escapes
 import sys
 from turtle import width
 from pyspark import SparkContext
@@ -7,8 +6,6 @@ import pyspark
 import random
 import numpy as np
 from PIL import Image
-
-# import matplotlib.pyplot as plt
 
 findspark.init("/opt/spark")
 
